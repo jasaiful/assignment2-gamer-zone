@@ -228,7 +228,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* border: 2px solid red; */
+    
 }
 
 
@@ -243,6 +243,13 @@ header {
     width: 260px;
 }
 
+.games-play-btn:hover{
+    border-radius: 15px;
+    border: 3px solid #FF42A5;
+    background: #FFF;
+    color: #FF42A5;
+    
+}
 
 .games-title {
     font-size: 2.5rem;
