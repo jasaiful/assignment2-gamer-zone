@@ -307,91 +307,85 @@ header {
     max-width: 1100px;
     margin: 0px auto;
     display: flex;
-    justify-content: space-evenly;
     flex-wrap: wrap;
+    justify-content: space-around;
     /* border: 2px solid black; */
     align-items: center;
     padding: 100px 0px;
 
 }
 
+.popular-games .game-1:hover, .game-2:hover, .game-3:hover, .game-4:hover, .game-5:hover, .game-6:hover, .game-7:hover, .game-8:hover, .game-9:hover { 
+    border-radius: 50px;
+    border: 2px solid #FF42A5;
+    background: #FFF;
+    color: #FF42A5;
+    padding: 7px;
+}
 
-.popular-games .game-1 {
+
+.popular-games .game-1{
     display: flex;
     align-items: center;
     gap: 10px;
-    border-radius: 50px;
-    background: #FFF;
+    
 }
 
 .popular-games .game-2 {
     display: flex;
     align-items: center;
     gap: 10px;
-    border-radius: 50px;
-    background: #FFF;
+  
 }
 
 .popular-games .game-3 {
     display: flex;
     align-items: center;
     gap: 10px;
-    border-radius: 50px;
-    background: #FFF;
+    
 }
 
 .popular-games .game-4 {
     display: flex;
     align-items: center;
     gap: 10px;
-    border-radius: 50px;
-    background: #FFF;
+    
 }
 
 .popular-games .game-5 {
     display: flex;
     align-items: center;
     gap: 10px;
-    border-radius: 50px;
-    background: #FFF;
+    
 }
 
 .popular-games .game-6 {
     display: flex;
     align-items: center;
     gap: 10px;
-    border-radius: 50px;
-    background: #FFF;
+    
 }
 
 .popular-games .game-7 {
     display: flex;
     align-items: center;
     gap: 10px;
-    border-radius: 50px;
-    background: #FFF;
+    
 }
 
 .popular-games .game-8 {
     display: flex;
     align-items: center;
     gap: 10px;
-    border-radius: 50px;
-    background: #FFF;
+    
 }
 
 .popular-games .game-9 {
     display: flex;
     align-items: center;
     gap: 10px;
-    border-radius: 50px;
-    background: #FFF;
+    
 }
-
-
-
-
-
 
 
 footer {
