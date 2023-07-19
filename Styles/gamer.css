@@ -197,7 +197,7 @@ header {
     gap: 15px;
 }
 
-.gamer-content {}
+
 
 .gamer-title {
     font-size: 2.5rem;
@@ -253,8 +253,42 @@ header {
     padding-left: 50px;
 }
 
+.play-instant-section{
+    margin: 70px auto;
+    max-width: 1100px;
+    /* border: 2px solid red; */
+    display: flex;
+
+}
+
+.play-instant-content {
+    margin-top: 50px;
+    width: 50%;
+    /* border: 2px solid red; */
+    text-align: right;
+    padding: 60px;
+}
+
+.play-instant-img {
+    width: 60%;
+    /* border: 2px solid red; */
+    
+}
 
 
+.play-instant-img .img-primary {
+    width: 70%;
+    height: auto;
+    margin-left: 180px;
+}
+
+
+.play-instant-img .img-secondary{
+    width: 30%;
+    position: relative;
+    margin: 100px;
+    margin-top: -150px;
+}
 
 
 /* Mobile responsive layout */
