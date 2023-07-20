@@ -65,6 +65,7 @@ header {
     background: rgba(11, 2, 35, 0.10);
     padding: 20px 10px;
     border-radius: 5px;
+    text-align: center;
 }
 
 #youtube-icon {
@@ -243,13 +244,17 @@ header {
     width: 260px;
 }
 
+
 .games-play-btn:hover{
     border-radius: 15px;
-    border: 3px solid #FF42A5;
-    background: #FFF;
+    border: 5px solid #FF42A5;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     color: #FF42A5;
     
-}
+    }
+
+
+
 
 .games-title {
     font-size: 2.5rem;
@@ -327,9 +332,9 @@ header {
     border: 2px solid #FF42A5;
     background: #FFF;
     color: #FF42A5;
-    padding: 7px;
+    padding: 2px;
 }
-
+ 
 
 .popular-games .game-1{
     display: flex;
@@ -487,32 +492,137 @@ footer .icon-section {
 /* Mobile responsive layout */
 
 @media screen and (max-width: 425px) {
-    .nav-container {
-        flex-direction: column;
-    }
-.nav-items-container{
+
+
+
+.nav-container {
     flex-direction: column;
-} 
-    .banner-container, .banner-content, .banner-para {
-        flex-direction: column;
-    }
+}
+
+.nav-items-container {
+    flex-direction: column;
+    width: 100%;
+}
+
+.nav-items-container a {
+    margin-top: 30px;
+}
+
+#nav-menu-icon {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+/* nav responsive end */
+
+.banner-container {
+    flex-direction: column;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: 180px;
+    /* flex-direction: column-reverse; */
+}
+
+.banner-content {
+    width: 100%;
+    margin-top: 20px;
+}
+    
+.img-container {
+    width: 100%;
+}
+
+.banner-headline {
+    font-size: 1.5rem;
+    tes
+}
+
+.banner-title {
+    font-size: 3rem;
+}
+
+
+.gamer-container {
+    flex-direction: column;
+    background-color: white;
+
+   
+}
+
+.gamer-img {
+    width: 100%;
+}
+
 .gamer-content {
+    width: 100%;
+}
+
+.gamer-content{
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+}
+
+.online-games-container {
+    margin-top: 30px;
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+    
+}
+
+.games-card-container {
     flex-direction: column;
 }
 
+.online-games-contant p {
+    margin-top: 20px;
+}
 
-.footer-menu {
+
+.play-instant-section {
+    width: 100%;
     flex-direction: column;
+    justify-content: center;
+}
+
+.play-instant-content {
+    width: 100%;
+}
+
+.play-instant-img {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.popular-games-container {
+    align-items: center;}
+
+
+
 }
 
 
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 /* Tab responsive layout */
-@media screen and (min-width: 425px) and (max-width: 800px) {
+@media screen and (min-width: 400px) and (max-width: 800px) {
     
 .nav-container {
     flex-direction: column;
